@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css"
+        integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/texmath.css">
+    <link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/vscode-texmath.css">
+
+</head>
+
+<body>
+    <h1 id="introduction">Introduction</h1>
+    <ul>
+        <li><a href="#introduction">Introduction</a>
+            <ul>
+                <li><a href="#supervised-learning"><strong>Supervised Learning</strong></a></li>
+                <li><a href="#unsupervised-learning"><strong>Unsupervised Learning</strong></a></li>
+            </ul>
+        </li>
+    </ul>
+    <p><strong>Machine Learning</strong>:</p>
+    <p>The field of study that gives computers the ability
+        to learn without being explicitly programmed.</p>
+    <p>A computer program is said to learn from experience
+        E with respect to some task T
+        and some performance on T, as measured by P,
+        imporves with exprerience E.</p>
+    <p>Example: playing checkers.</p>
+    <p>E = the experience of playing many games of checkers</p>
+    <p>T = the task of playing checkers.</p>
+    <p>P = the probability that the program will win the next game.</p>
+    <hr>
+    <p><strong>Machine learning algorithms</strong>:</p>
+    <ul>
+        <li>Supervised Learning</li>
+        <li>Unsupervised Learning</li>
+        <li>Reinforcement Learning</li>
+        <li>Recommender Systems</li>
+    </ul>
+    <h2 id="supervised-learning"><strong>Supervised Learning</strong></h2>
+    <blockquote>
+        <p>&quot;Right Answers&quot; given. AI must get that answer for positive learning</p>
+    </blockquote>
+    <p>In supervised learning, we are given a data set and already know what our correct output should look like, having
+        the idea that there is a relationship between the input and the output.</p>
+    <p>Supervised learning is categorized into:</p>
+    <blockquote>
+        <p><ins><strong>Regression</strong></ins>: Predict continuous valued output (price for example).</p>
+    </blockquote>
+    <p>and</p>
+    <blockquote>
+        <p><ins><strong>Classification</strong></ins>: Discrete valued output (0 or 1 for example)</p>
+    </blockquote>
+    <p><strong>Example</strong>:
+        You’re running a company, and you want to develop learning algorithms to address each of two problems.</p>
+    <blockquote>
+        <p><strong>Problem 1</strong>:You have a large inventory of identical items. You want to predict how many of
+            these items will sell over the next 3 months.</p>
+    </blockquote>
+    <blockquote>
+        <p><strong>Problem 2</strong>: You’d like software to examine individual customer accounts, and for each account
+            decide if it has been hacked/compromised. Should you treat these as classification or as regression
+            problems?</p>
+    </blockquote>
+    <p><ins><strong><em>Answer</em></strong></ins>: Treat problem 1 as a regression problem, problem 2 as a
+        classification problem.</p>
+    <h2 id="unsupervised-learning"><strong>Unsupervised Learning</strong></h2>
+    <blockquote>
+        <p>Don't give the algorithm any information in advance other than input data</p>
+    </blockquote>
+    <p>Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We
+        can derive structure from data where we don't necessarily know the effect of the variables.</p>
+    <p>We can derive this structure by clustering the data based on relationships among the variables in the data.</p>
+    <p>With unsupervised learning there is no feedback based on the prediction results.</p>
+    <p><strong><em>Example</em></strong>:</p>
+    <p>Clustering: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes
+        into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and
+        so on.</p>
+    <p>Non-clustering: The &quot;Cocktail Party Algorithm&quot;, allows you to find structure in a chaotic environment.
+        (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).</p>
+
+</body>
+
+</html>
